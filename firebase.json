@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chatapptute-c3c4c",
+          "appId": "1:462204953843:android:70f7baeb35daddd3ff0386",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chatapptute-c3c4c",
+          "configurations": {
+            "android": "1:462204953843:android:70f7baeb35daddd3ff0386",
+            "web": "1:462204953843:web:3ab4197d3ca24bbeff0386"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
